@@ -1,0 +1,101 @@
+
+h1{
+        
+    color:purple;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h2{
+    color:purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}    
+.photo>img{
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+    position: relative;
+    border: 6px solid black;
+    top: 25px;
+    bottom: 2000px;
+    margin-left: 1000px;
+    transition: transform 0.3s ease;
+    
+    
+}
+.photo>img:hover{
+    transform: scale(1.1);
+}
+@keyframes zoom-out{
+    0%{
+        width: 20px;
+        height: 200px;
+    }
+    50%{
+        width: 20%;
+        height: 20%;
+    }
+    100%{
+        width: 10%;
+        height: 10%;
+
+    }
+}   
+
+b{
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom: 250px;
+}  
+.internship{
+    position: relative;
+    bottom: 250px;
+}
+.iot{
+    position: relative;
+    bottom: 250px;
+}
+.internal{
+    position: relative;
+    bottom: 250px;
+}
+
+.instagram{
+    position: relative;
+    bottom: 250px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login>b1{
+    position: relative;
+    bottom: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:brown;
+}
+h3{
+    position: relative;
+    bottom: 250px;
+    right: 600px;
+}
+.username{
+    position: relative;
+    bottom: 250px;
+    right: 600px;
+
+}
+.email{
+    position: relative;
+    bottom: 250px;
+    right: 600px;
+}
+.password{
+    position: relative;
+    bottom: 250px;
+    right: 600px;
+}
+button{
+    position: relative;
+    bottom: 250px;
+    right: 600px;
+}
+
